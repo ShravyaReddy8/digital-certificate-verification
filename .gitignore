@@ -1,0 +1,24 @@
+# Backend build output
+backend/target/
+*.class
+
+# Runtime data (H2 database, uploaded certificates, QR codes, RSA keys)
+backend/data/
+backend/uploads/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.iml
